@@ -1,2 +1,4 @@
 logUtility/wso2carbon.log
+logUtility/modules/__pycache__
 search_result.log
+.idea
