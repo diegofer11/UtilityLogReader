@@ -1,7 +1,7 @@
 import ssl
-import urllib
+import urllib.request
 
-import logUtility.modules.logSave as save_file
+import modules.logSave as save_file
 
 
 def url_reader(dir_remote, file_name):
