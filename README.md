@@ -10,7 +10,7 @@ reader.url_reader(
     'https://remoteurl.com/log/filename_without_extension', 'desired_file_name')
 
 search.log_search(
-    'C:\route_to_file\logfile.log', 'keyword')
+    'C:\route_to_file\logfile.log', ['keyword', 'another_keyword'])
 
 ```
 It will create a file called search_result.log.
